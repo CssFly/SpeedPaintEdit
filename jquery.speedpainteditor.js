@@ -48,7 +48,7 @@
             var $el, $els = this.element.find(defaults.querySelector),
                 len = $els.length, i, editLink, href;
 
-            for(i = 0; i < l; i++)
+            for(i = 0; i < len; i++)
             {
               $el = $els[i];
               href = $el.attr('src');
